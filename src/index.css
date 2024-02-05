@@ -27,3 +27,8 @@ scroll-behavior: smooth;
   background: linear-gradient(#a9a9a9, #1f1f1f);
   border-radius: 10px;
 }
+
+.apaztron-bg{
+  background: url(/images/hero_apaztron.png);
+
+}
