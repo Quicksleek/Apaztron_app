@@ -5,8 +5,8 @@ import { Hero } from "./components";
 function App() {
   return (
     <div className="bg-primary w-full overflow-hidden">
-      <div className={`bg-primary ${styles.flexStart}`}>
-        <div className={`${styles.boxWidth}`}>
+      <div className="bg-primary">
+        <div>
           <Hero />
         </div>
       </div>

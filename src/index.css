@@ -30,5 +30,7 @@ scroll-behavior: smooth;
 
 .apaztron-bg{
   background: url(/images/hero_apaztron.png);
-
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
