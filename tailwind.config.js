@@ -1,6 +1,6 @@
-/ @type {import('tailwindcss').Config} */
+/** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./index.html", "./src//*.{js,jsx}"],
+  content: ["./index.html", "./src/**/*.{js,jsx}"],
   mode: "jit",
   theme: {
     extend: {
@@ -11,7 +11,8 @@ module.exports = {
         dimBlue: "rgba(49, 15, 62, 0.3)",
       },
       fontFamily: {
-        Josefin_Sans: ["Josefin-sans", "sans-serif"],
+        poppins: ["Poppins", "sans-serif"],
+        kalam: ["Kalam", "cursive"],
       },
     },
     screens: {
