@@ -28,11 +28,27 @@ scroll-behavior: smooth;
   border-radius: 10px;
 }
 
-.apaztron-bg{
+/* .apaztron-bg{
   background: url(/images/hero_apaztron.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+} */
+
+.apaztron-bg {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .arrow-animation{
