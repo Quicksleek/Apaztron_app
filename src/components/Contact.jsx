@@ -45,7 +45,7 @@ const Contact = () => {
         <img src={profile_pic} width={180} className="pt-6"></img>       
         <p className={`pt-5 ${styles.paragraph}`}>
         At the age of 14, Apaztron delved into music production, and over the next decade, he crafted numerous title tracks and collaborated with renowned artists such as 
-        Tony Junior. The journey leading up to his latest single, "Odin," has been a transformative one. 
+        Tony Junior. The journey leading up to his single, "Odin," has been a transformative one. 
         The moniker Apaztron came into existence in 2015 when he decided to take part in a remix contest for 
         Thomas Gold's "Believe." Post this release, he continued to create and produce his own material. 
         <br/><br/> In 2018, the completion of the track "Ares" marked a significant milestone for Apaztron 
