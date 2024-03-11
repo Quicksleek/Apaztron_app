@@ -1,6 +1,7 @@
 import "./index.css";
 import styles from "./style";
 import { Hero } from "./components";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <div className="bg-primary">
         <div>
           <Hero />
+          <Contact />
         </div>
       </div>
     </div>
