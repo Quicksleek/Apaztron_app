@@ -2,6 +2,7 @@ import "./index.css";
 import styles from "./style";
 import { Hero } from "./components";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <div>
           <Hero />
           <Contact />
+          <Footer />
         </div>
       </div>
     </div>
